@@ -125,7 +125,7 @@ ul.nosyely_list {
   width: 30px;
   content: " ";
   position: absolute;
-  border-top: solid 3px #f50136;
+  /* border-top: solid 3px #f50136; */
   left: 0;
   top: 0;
 }
@@ -1653,7 +1653,7 @@ header .logo img {
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
-  padding: 20px 12px !important;
+  padding: 10px 12px !important;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -1662,7 +1662,8 @@ header ul.menu li a.nav-link {
   color: #ffffff;
 }
 header ul.menu li a.nav-link:hover {
-  color: #f50136;
+  color: #ffd54f;
+  
 }
 header ul.menu .search_btn {
   padding: 16px 8px !important;
@@ -1706,7 +1707,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header {
-  background-color: #18181c;
+  background-color: rgba(197, 96, 0, 0.8);
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1735,7 +1736,7 @@ header.sticky_header {
 }
 @media (max-width: 767px) {
   header {
-    background-color: #18181c;
+    background-color: rgba(197, 96, 0, 0.5);
     margin: 0;
     -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1743,7 +1744,7 @@ header.sticky_header {
     transition: all ease-in-out 0.4s;
   }
   header .container {
-    padding: 15px !important;
+    padding: 5px !important;
   }
 
   header li > ul {
@@ -1912,16 +1913,16 @@ footer .newsletter_form .form-control {
 }
 
 .btn-primary {
-  background-color: #f50136;
-  border: solid 1px #f50136;
+  background-color: #c43e00;
+  border: solid 1px #c43e00;
   color: #ffffff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 .btn-primary:hover {
-  background-color: #18181c;
+  background-color: #ac1900;
   color: #ffffff;
-  border: solid 1px #18181c;
+  border: solid 1px #ac1900;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -1987,7 +1988,7 @@ Cover
   word-break: break-all;
 }
 .cover_slider .slider-content-center {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   text-align: center;
 }
